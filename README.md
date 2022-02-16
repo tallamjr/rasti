@@ -2,4 +2,4 @@
 
 See `readme.txt` for details
 
-![](https://ras.ac.uk/media/989)
+![](https://ras.ac.uk/sites/default/files/2021-10/RASTI%20cover%20final.jpg)
