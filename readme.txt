@@ -1,7 +1,7 @@
 % readme.txt
 %
 % RASTI journal LaTeX package
-% v1.0 for LaTeX 2e
+% v1.2 for LaTeX 2e
 %
 %
 % This work may be distributed and/or modified under the
@@ -15,14 +15,14 @@
 % This work has the LPPL maintenance status `author-maintained'.
 % 
 % The Current Maintainer of this work is: Royal Astronomical Society,
-% RAS Editorial Office, who can be contacted on mn@ras.ac.uk
+% RAS Editorial Office, who can be contacted on publications@ras.ac.uk
 %
 % This work consists of all the files listed in readme.txt
 %
 %
-% Last updated 12 November 2021
+% Last updated 16 September 2022
 %
-% Copyright (C) Royal Astronomical Society 2021, Blackwell Science 2001,
+% Copyright (C) Royal Astronomical Society 2022, Blackwell Science 2001,
 % Cambridge University Press 1994
 %
 % See each file for a detailed author list and change log.
@@ -31,27 +31,21 @@
 
 readme.txt          This file
 
-mnras.cls           MNRAS LaTeX document class
-mnras.bst           MNRAS BibTeX style
+rasti.cls           RASTI LaTeX document class
+rasti.bst           RASTI BibTeX style
 
-mnras_guide.tex     User guide, LaTeX format
-mnras_guide.pdf     User guide, PDF format
-mnras_template.tex  A simple template paper
+rasti_guide.pdf     User guide, PDF format
+rasti_template.tex  A simple template paper
 
 example.eps         An example image used in the guide
 example.png         An example image used in the guide
 example.ps          An example image used in the guide
 
-legacy\legacy.txt   Description of the legacy releases
-legacy\mn2e.cls     v2.2 of mn2e.cls (deprecated)
-legacy\mn2e.bst     v1.1b of mn2e.bst (deprecated)
-
 
 % Disclaimer:
 %
 % This LaTeX package is provided free to the community in the hope that it
-% assists them in preparing papers for the journal Monthly Notices of the
-% Royal Astronomical Society.
+% assists them in preparing papers for the journal RAS Techniques and Instruments.
 % The files are provided 'as-is' with no guarantee of their suitability,
 % freedom from errors or omissions, or compatibility with any software.
 % The Royal Astronomical Society cannot provide user support for this package,

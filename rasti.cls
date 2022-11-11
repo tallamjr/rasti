@@ -3,7 +3,7 @@
 % RASTI journal document class file
 % v3.0 for LaTeX 2e
 %
-% Copyright (C) Royal Astronomical Society 2021, Blackwell Science 2001,
+% Copyright (C) Royal Astronomical Society 2022, Blackwell Science 2001,
 % Cambridge University Press 1994
 %
 % Authors:
@@ -25,7 +25,7 @@
 % This work has the LPPL maintenance status `author-maintained'.
 % 
 % The Current Maintainer of this work is: Royal Astronomical Society,
-% MNRAS Editorial Office, who can be contacted on mn@ras.ac.uk
+% MNRAS Editorial Office, who can be contacted on publications@ras.ac.uk
 %
 % This work consists of all the files listed in readme.txt
 
@@ -532,7 +532,7 @@ $\reset@font\displaystyle##$\hfil\cr>\cr\approx\cr}}}
 \newcommand\memras{Mem.~RAS}         % Memoirs of the RAS
 \newcommand\memsai{Mem. Soc. Astron. Italiana} % Memoire della Societa Astronomica Italiana
 \newcommand\mnassa{MNASSA}           % Monthly Notes of the Astronomical Society of Southern Africa
-\newcommand\rasti{rasti}             % Monthly Notices of the Royal Astronomical Society
+\newcommand\mnras {MNRAS}             % Monthly Notices of the Royal Astronomical Society
 \newcommand\na{New~Astron.}          % New Astronomy
 \newcommand\nar{New~Astron.~Rev.}    % New Astronomy Review
 \newcommand\nat{Nature}              % Nature
@@ -1736,8 +1736,9 @@ has been typeset from a \TeX/\LaTeX\ file prepared by the author.}
 
 
 %    RASTI class file v1.0 adapted from MNRAS class file 11-Nov-2021
+%    RASTI class file v1.1 updated rasti.bst to math output style for Geophysical Journal International 
 %    Changes to journal title only, otherwise identical to MNRAS.cls 
-%    CHange log for MNRAS.cls to 11-Nov-2021 below
+%    Change log for MNRAS.cls to 11-Nov-2021 below
 %
 %    Original file produced by Cambridge University Press 1994
 %    for LaTeX version 2.09, 1988, by Leslie Lamport

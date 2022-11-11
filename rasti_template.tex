@@ -2,10 +2,10 @@
 %
 % LaTeX template for creating an RASTI paper
 %
-% v1.0 released 12 November 2021
+% v1.2 released 26 April 2022
 % (version numbers match those of rasti.cls)
 %
-% Copyright (C) Royal Astronomical Society 2021
+% Copyright (C) Royal Astronomical Society 2022
 % Authors:
 % Peter Jones (OUP, adapted from mnras_template.tex, author Keith T. Smith (Royal Astronomical Society))
 
@@ -13,6 +13,10 @@
 %
 % v1.0 November 2021
 %    Adapted from mnras_template.tex
+% v1.1 February 2022
+%    rasti.bst updated to match output style for Geophysical Journal International 
+% v.1.2 April 2022
+%    minor updates to author instructions (word limit, contact adddress, keywords)
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -64,7 +68,7 @@
 % The list of authors, and the short list which is used in the headers.
 % If you need two or more lines of authors, add an extra line using \newauthor
 \author[K. T. Smith et al.]{
-Keith T. Smith,$^{1}$\thanks{E-mail: mn@ras.org.uk (KTS)}
+Keith T. Smith,$^{1}$\thanks{E-mail: publications@ras.ac.uk (KTS)}
 A. N. Other,$^{2}$
 Third Author$^{2,3}$
 and Fourth Author$^{3}$
@@ -79,7 +83,7 @@ $^{3}$Another Department, Different Institution, Street Address, City Postal Cod
 \date{Accepted XXX. Received YYY; in original form ZZZ}
 
 % Enter the current year, for the copyright statements etc.
-\pubyear{2015}
+\pubyear{2022}
 
 % Don't change these lines
 \begin{document}
@@ -91,12 +95,11 @@ $^{3}$Another Department, Different Institution, Street Address, City Postal Cod
 \begin{abstract}
 This is a simple template for authors to write new RASTI papers.
 The abstract should briefly describe the aims, methods, and main results of the paper.
-It should be a single paragraph not more than 250 words (200 words for Letters).
+It should be a single paragraph not more than 250 words.
 No references should appear in the abstract.
 \end{abstract}
 
-% Select between one and six entries from the list of approved keywords.
-% Don't make up new ones.
+% Include between one and six keywords.
 \begin{keywords}
 keyword1 -- keyword2 -- keyword3
 \end{keywords}
@@ -108,7 +111,7 @@ keyword1 -- keyword2 -- keyword3
 \section{Introduction}
 
 This is a simple template for authors to write new RASTI papers.
-See \texttt{mnras\_sample.tex} for a more complex example, and \texttt{mnras\_guide.tex}
+See \texttt{rasti\_guide.tex}
 for a full user guide.
 
 All papers should start with an Introduction section, which sets the work
